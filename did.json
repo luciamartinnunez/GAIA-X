@@ -1,0 +1,24 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3c-ccg.github.io/lds-jws2020/contexts/v1/"
+  ],
+  "id": "did:web:raw.githubusercontent.com:luciamartinnunez:GAIA-X:main", 
+  "verificationMethod": [
+    {
+      "id": "did:web:raw.githubusercontent.com:luciamartinnunez:GAIA-X:main#key-1", 
+      "type": "JsonWebKey2020",
+      "publicKeyJwk": {
+        "kty": "RSA",
+        "n": "8aMO1M0VdhpQSfumMBi9GS99kDtd6WXXqNC8SNI5NcQa3sggLI5HSxx_sdRy03yKApXWTwMetufUYfpJE05IbixW3nZG75p40rOYK_vgSwPUVkNav4MJRO_TK8c125QciwYd8ClWonUQq_-xUeJn1eKhIQFfNBkrPa7fSZekKomFNzE66o2obdKwzmLwz2_k1NU32yH91y4LJq587OkiZ7egLUTdr10wBR64AxDwFrLQF3OAmKQUG1IeqRK3ESIeQS-THjMBQEUfdTnjSfuqF2KV55gplZfq0uJXcXjhm8Dg9z07HreZ-6NZ4g4sfw92j7x6wTx07-35Qp9epoVctw",
+        "e": "AQAB",
+        "alg": "RS256",
+        "x5u": "https://raw.githubusercontent.com/luciamartinnunez/GAIA-X/main/cert.pem"
+
+      }
+    }
+  ],
+  "assertionMethod": [
+    "did:web:raw.githubusercontent.com:luciamartinnunez:GAIA-X:main#key-1" 
+  ]
+}
